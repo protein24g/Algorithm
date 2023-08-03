@@ -1,7 +1,8 @@
 def solution(n):
     if n == 1: return [[1]]
     answer = [[0 for j in range(n)] for i in range(n)]
-    x = 0; y = 0; dir = 'r'
+    x = 0; y = 0
+    dir = 'r'
     for i in range(n*n):
         answer[x][y] = i + 1
         if dir == 'r':

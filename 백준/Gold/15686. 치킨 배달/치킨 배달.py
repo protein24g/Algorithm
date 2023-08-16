@@ -3,7 +3,6 @@ import sys
 input = sys.stdin.readline
 
 n, m = map(int, input().split())
-ary = []
 home, chik = [], []
 for i in range(n):
     tmp = list(map(int, input().split()))

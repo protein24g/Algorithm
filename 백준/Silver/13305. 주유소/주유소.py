@@ -13,4 +13,6 @@ for i in range(1, len(ary)):
         res += start * tmp
         start = ary[i]
         tmp = 0
-print(res)
+if tmp != 0: print(start * tmp + res)
+else: print(res)
+
